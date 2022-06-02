@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DB38D1428497FF800C58D00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D1328497FF800C58D00 /* AppDelegate.swift */; };
+		3DB38D1628497FF800C58D00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D1528497FF800C58D00 /* SceneDelegate.swift */; };
+		3DB38D1828497FF800C58D00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D1728497FF800C58D00 /* ViewController.swift */; };
+		3DB38D1B28497FF800C58D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB38D1928497FF800C58D00 /* Main.storyboard */; };
+		3DB38D1D28497FF900C58D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB38D1C28497FF900C58D00 /* Assets.xcassets */; };
+		3DB38D2028497FF900C58D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB38D1E28497FF900C58D00 /* LaunchScreen.storyboard */; };
+		3DB38D2B28497FF900C58D00 /* Star_WappsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D2A28497FF900C58D00 /* Star_WappsTests.swift */; };
+		3DB38D3528497FF900C58D00 /* Star_WappsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D3428497FF900C58D00 /* Star_WappsUITests.swift */; };
+		3DB38D3728497FF900C58D00 /* Star_WappsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D3628497FF900C58D00 /* Star_WappsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DB38D2728497FF900C58D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB38D0828497FF800C58D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB38D0F28497FF800C58D00;
+			remoteInfo = "Star Wapps";
+		};
+		3DB38D3128497FF900C58D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB38D0828497FF800C58D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB38D0F28497FF800C58D00;
+			remoteInfo = "Star Wapps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DB38D1028497FF800C58D00 /* Star Wapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Wapps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB38D1328497FF800C58D00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DB38D1528497FF800C58D00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DB38D1728497FF800C58D00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DB38D1A28497FF800C58D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DB38D1C28497FF900C58D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DB38D1F28497FF900C58D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DB38D2128497FF900C58D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB38D2628497FF900C58D00 /* Star WappsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star WappsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB38D2A28497FF900C58D00 /* Star_WappsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_WappsTests.swift; sourceTree = "<group>"; };
+		3DB38D3028497FF900C58D00 /* Star WappsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star WappsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB38D3428497FF900C58D00 /* Star_WappsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_WappsUITests.swift; sourceTree = "<group>"; };
+		3DB38D3628497FF900C58D00 /* Star_WappsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_WappsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB38D0D28497FF800C58D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB38D2328497FF900C58D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB38D2D28497FF900C58D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DB38D0728497FF800C58D00 = {
+			isa = PBXGroup;
+			children = (
+				3DB38D1228497FF800C58D00 /* Star Wapps */,
+				3DB38D2928497FF900C58D00 /* Star WappsTests */,
+				3DB38D3328497FF900C58D00 /* Star WappsUITests */,
+				3DB38D1128497FF800C58D00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB38D1128497FF800C58D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38D1028497FF800C58D00 /* Star Wapps.app */,
+				3DB38D2628497FF900C58D00 /* Star WappsTests.xctest */,
+				3DB38D3028497FF900C58D00 /* Star WappsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB38D1228497FF800C58D00 /* Star Wapps */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38D1328497FF800C58D00 /* AppDelegate.swift */,
+				3DB38D1528497FF800C58D00 /* SceneDelegate.swift */,
+				3DB38D1728497FF800C58D00 /* ViewController.swift */,
+				3DB38D1928497FF800C58D00 /* Main.storyboard */,
+				3DB38D1C28497FF900C58D00 /* Assets.xcassets */,
+				3DB38D1E28497FF900C58D00 /* LaunchScreen.storyboard */,
+				3DB38D2128497FF900C58D00 /* Info.plist */,
+			);
+			path = "Star Wapps";
+			sourceTree = "<group>";
+		};
+		3DB38D2928497FF900C58D00 /* Star WappsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38D2A28497FF900C58D00 /* Star_WappsTests.swift */,
+			);
+			path = "Star WappsTests";
+			sourceTree = "<group>";
+		};
+		3DB38D3328497FF900C58D00 /* Star WappsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38D3428497FF900C58D00 /* Star_WappsUITests.swift */,
+				3DB38D3628497FF900C58D00 /* Star_WappsUITestsLaunchTests.swift */,
+			);
+			path = "Star WappsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB38D0F28497FF800C58D00 /* Star Wapps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB38D3A28497FF900C58D00 /* Build configuration list for PBXNativeTarget "Star Wapps" */;
+			buildPhases = (
+				3DB38D0C28497FF800C58D00 /* Sources */,
+				3DB38D0D28497FF800C58D00 /* Frameworks */,
+				3DB38D0E28497FF800C58D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Star Wapps";
+			productName = "Star Wapps";
+			productReference = 3DB38D1028497FF800C58D00 /* Star Wapps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DB38D2528497FF900C58D00 /* Star WappsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB38D3D28497FF900C58D00 /* Build configuration list for PBXNativeTarget "Star WappsTests" */;
+			buildPhases = (
+				3DB38D2228497FF900C58D00 /* Sources */,
+				3DB38D2328497FF900C58D00 /* Frameworks */,
+				3DB38D2428497FF900C58D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB38D2828497FF900C58D00 /* PBXTargetDependency */,
+			);
+			name = "Star WappsTests";
+			productName = "Star WappsTests";
+			productReference = 3DB38D2628497FF900C58D00 /* Star WappsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DB38D2F28497FF900C58D00 /* Star WappsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB38D4028497FF900C58D00 /* Build configuration list for PBXNativeTarget "Star WappsUITests" */;
+			buildPhases = (
+				3DB38D2C28497FF900C58D00 /* Sources */,
+				3DB38D2D28497FF900C58D00 /* Frameworks */,
+				3DB38D2E28497FF900C58D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB38D3228497FF900C58D00 /* PBXTargetDependency */,
+			);
+			name = "Star WappsUITests";
+			productName = "Star WappsUITests";
+			productReference = 3DB38D3028497FF900C58D00 /* Star WappsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB38D0828497FF800C58D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3DB38D0F28497FF800C58D00 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3DB38D2528497FF900C58D00 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3DB38D0F28497FF800C58D00;
+					};
+					3DB38D2F28497FF900C58D00 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3DB38D0F28497FF800C58D00;
+					};
+				};
+			};
+			buildConfigurationList = 3DB38D0B28497FF800C58D00 /* Build configuration list for PBXProject "Star Wapps" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DB38D0728497FF800C58D00;
+			productRefGroup = 3DB38D1128497FF800C58D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB38D0F28497FF800C58D00 /* Star Wapps */,
+				3DB38D2528497FF900C58D00 /* Star WappsTests */,
+				3DB38D2F28497FF900C58D00 /* Star WappsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB38D0E28497FF800C58D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB38D2028497FF900C58D00 /* LaunchScreen.storyboard in Resources */,
+				3DB38D1D28497FF900C58D00 /* Assets.xcassets in Resources */,
+				3DB38D1B28497FF800C58D00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB38D2428497FF900C58D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB38D2E28497FF900C58D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB38D0C28497FF800C58D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB38D1828497FF800C58D00 /* ViewController.swift in Sources */,
+				3DB38D1428497FF800C58D00 /* AppDelegate.swift in Sources */,
+				3DB38D1628497FF800C58D00 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB38D2228497FF900C58D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB38D2B28497FF900C58D00 /* Star_WappsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB38D2C28497FF900C58D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB38D3728497FF900C58D00 /* Star_WappsUITestsLaunchTests.swift in Sources */,
+				3DB38D3528497FF900C58D00 /* Star_WappsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DB38D2828497FF900C58D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB38D0F28497FF800C58D00 /* Star Wapps */;
+			targetProxy = 3DB38D2728497FF900C58D00 /* PBXContainerItemProxy */;
+		};
+		3DB38D3228497FF900C58D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB38D0F28497FF800C58D00 /* Star Wapps */;
+			targetProxy = 3DB38D3128497FF900C58D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DB38D1928497FF800C58D00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB38D1A28497FF800C58D00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DB38D1E28497FF900C58D00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB38D1F28497FF900C58D00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DB38D3828497FF900C58D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DB38D3928497FF900C58D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DB38D3B28497FF900C58D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8VJT32M4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Star Wapps/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "romuloviganico.Star-Wapps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DB38D3C28497FF900C58D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8VJT32M4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Star Wapps/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "romuloviganico.Star-Wapps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DB38D3E28497FF900C58D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8VJT32M4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "romuloviganico.Star-WappsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Star Wapps.app/Star Wapps";
+			};
+			name = Debug;
+		};
+		3DB38D3F28497FF900C58D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8VJT32M4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "romuloviganico.Star-WappsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Star Wapps.app/Star Wapps";
+			};
+			name = Release;
+		};
+		3DB38D4128497FF900C58D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8VJT32M4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "romuloviganico.Star-WappsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Star Wapps";
+			};
+			name = Debug;
+		};
+		3DB38D4228497FF900C58D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8VJT32M4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "romuloviganico.Star-WappsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Star Wapps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB38D0B28497FF800C58D00 /* Build configuration list for PBXProject "Star Wapps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB38D3828497FF900C58D00 /* Debug */,
+				3DB38D3928497FF900C58D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB38D3A28497FF900C58D00 /* Build configuration list for PBXNativeTarget "Star Wapps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB38D3B28497FF900C58D00 /* Debug */,
+				3DB38D3C28497FF900C58D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB38D3D28497FF900C58D00 /* Build configuration list for PBXNativeTarget "Star WappsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB38D3E28497FF900C58D00 /* Debug */,
+				3DB38D3F28497FF900C58D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB38D4028497FF900C58D00 /* Build configuration list for PBXNativeTarget "Star WappsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB38D4128497FF900C58D00 /* Debug */,
+				3DB38D4228497FF900C58D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DB38D0828497FF800C58D00 /* Project object */;
+}
