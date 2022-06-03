@@ -10,12 +10,13 @@
 		3DB38D1428497FF800C58D00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D1328497FF800C58D00 /* AppDelegate.swift */; };
 		3DB38D1628497FF800C58D00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D1528497FF800C58D00 /* SceneDelegate.swift */; };
 		3DB38D1828497FF800C58D00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D1728497FF800C58D00 /* ViewController.swift */; };
-		3DB38D1B28497FF800C58D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB38D1928497FF800C58D00 /* Main.storyboard */; };
 		3DB38D1D28497FF900C58D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB38D1C28497FF900C58D00 /* Assets.xcassets */; };
-		3DB38D2028497FF900C58D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB38D1E28497FF900C58D00 /* LaunchScreen.storyboard */; };
 		3DB38D2B28497FF900C58D00 /* Star_WappsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D2A28497FF900C58D00 /* Star_WappsTests.swift */; };
 		3DB38D3528497FF900C58D00 /* Star_WappsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D3428497FF900C58D00 /* Star_WappsUITests.swift */; };
 		3DB38D3728497FF900C58D00 /* Star_WappsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D3628497FF900C58D00 /* Star_WappsUITestsLaunchTests.swift */; };
+		3DB38D532849B5FD00C58D00 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D522849B5FD00C58D00 /* Model.swift */; };
+		3DB38D552849B61000C58D00 /* Begin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D542849B61000C58D00 /* Begin.swift */; };
+		3DB38D5B2849B6E100C58D00 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB38D5A2849B6E100C58D00 /* ApiClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +41,16 @@
 		3DB38D1328497FF800C58D00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DB38D1528497FF800C58D00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3DB38D1728497FF800C58D00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3DB38D1A28497FF800C58D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DB38D1C28497FF900C58D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3DB38D1F28497FF900C58D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DB38D2128497FF900C58D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DB38D2628497FF900C58D00 /* Star WappsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star WappsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB38D2A28497FF900C58D00 /* Star_WappsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_WappsTests.swift; sourceTree = "<group>"; };
 		3DB38D3028497FF900C58D00 /* Star WappsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star WappsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB38D3428497FF900C58D00 /* Star_WappsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_WappsUITests.swift; sourceTree = "<group>"; };
 		3DB38D3628497FF900C58D00 /* Star_WappsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_WappsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DB38D522849B5FD00C58D00 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3DB38D542849B61000C58D00 /* Begin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Begin.swift; sourceTree = "<group>"; };
+		3DB38D5A2849B6E100C58D00 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,15 @@
 		3DB38D1228497FF800C58D00 /* Star Wapps */ = {
 			isa = PBXGroup;
 			children = (
+				3DB38D472849AC2500C58D00 /* Application */,
+				3DB38D4B2849ACC700C58D00 /* Domain */,
+				3DB38D4A2849ACA700C58D00 /* Presentation */,
+				3DB38D492849AC7B00C58D00 /* Data */,
+				3DB38D482849AC7100C58D00 /* Infrasctructure */,
 				3DB38D1328497FF800C58D00 /* AppDelegate.swift */,
 				3DB38D1528497FF800C58D00 /* SceneDelegate.swift */,
 				3DB38D1728497FF800C58D00 /* ViewController.swift */,
-				3DB38D1928497FF800C58D00 /* Main.storyboard */,
 				3DB38D1C28497FF900C58D00 /* Assets.xcassets */,
-				3DB38D1E28497FF900C58D00 /* LaunchScreen.storyboard */,
 				3DB38D2128497FF900C58D00 /* Info.plist */,
 			);
 			path = "Star Wapps";
@@ -125,6 +130,108 @@
 				3DB38D3628497FF900C58D00 /* Star_WappsUITestsLaunchTests.swift */,
 			);
 			path = "Star WappsUITests";
+			sourceTree = "<group>";
+		};
+		3DB38D472849AC2500C58D00 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3DB38D482849AC7100C58D00 /* Infrasctructure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Infrasctructure;
+			sourceTree = "<group>";
+		};
+		3DB38D492849AC7B00C58D00 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38D502849AD0800C58D00 /* Repositories */,
+				3DB38D512849AD1100C58D00 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3DB38D4A2849ACA700C58D00 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38D562849B63000C58D00 /* Scenes */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3DB38D4B2849ACC700C58D00 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38D4D2849ACE400C58D00 /* Entities */,
+				3DB38D4E2849ACEB00C58D00 /* UseCases */,
+				3DB38D4F2849ACF300C58D00 /* Interfaces */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3DB38D4D2849ACE400C58D00 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38D522849B5FD00C58D00 /* Model.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		3DB38D4E2849ACEB00C58D00 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38D542849B61000C58D00 /* Begin.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		3DB38D4F2849ACF300C58D00 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		3DB38D502849AD0800C58D00 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		3DB38D512849AD1100C58D00 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38D5A2849B6E100C58D00 /* ApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3DB38D562849B63000C58D00 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3DB38D572849B64500C58D00 /* ViewModel */,
+				3DB38D582849B64D00C58D00 /* View */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3DB38D572849B64500C58D00 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3DB38D582849B64D00C58D00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB38D2028497FF900C58D00 /* LaunchScreen.storyboard in Resources */,
 				3DB38D1D28497FF900C58D00 /* Assets.xcassets in Resources */,
-				3DB38D1B28497FF800C58D00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +364,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DB38D1828497FF800C58D00 /* ViewController.swift in Sources */,
+				3DB38D552849B61000C58D00 /* Begin.swift in Sources */,
 				3DB38D1428497FF800C58D00 /* AppDelegate.swift in Sources */,
 				3DB38D1628497FF800C58D00 /* SceneDelegate.swift in Sources */,
+				3DB38D532849B5FD00C58D00 /* Model.swift in Sources */,
+				3DB38D5B2849B6E100C58D00 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +403,6 @@
 			targetProxy = 3DB38D3128497FF900C58D00 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3DB38D1928497FF800C58D00 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DB38D1A28497FF800C58D00 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3DB38D1E28497FF900C58D00 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DB38D1F28497FF900C58D00 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3DB38D3828497FF900C58D00 /* Debug */ = {
@@ -442,7 +531,6 @@
 				INFOPLIST_FILE = "Star Wapps/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,7 +542,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +558,6 @@
 				INFOPLIST_FILE = "Star Wapps/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +569,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
